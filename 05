@@ -8,7 +8,7 @@ class Cbox {
 	}
 
 	void surfaceArea() {
-		System.out.println("surfaceArea=" + (length + width + height));
+		System.out.println("surfaceArea=" + (length * width + width * height + height * length)*2);
 	}
 
 	void showData() {
